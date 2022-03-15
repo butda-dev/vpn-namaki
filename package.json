@@ -24,10 +24,10 @@
 
     "QR_Path": {
        "description": "QR code and configuration link path, the default qr_img, you can also use uuid for confidentiality, but it cannot be the same as V2_Path. If the AppName variable is no, this variable has no effect",
-       "value": "/qr"
+       "value": "https://vpn-namaki.herokuapp.com/qr/vpn.png"
      }
   },
-  "website": "",
+  "website": "https://vpn-namaki.herokuapp.com",
   "repository": "",
   "stack": "container"
  }
