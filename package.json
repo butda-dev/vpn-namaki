@@ -1,5 +1,5 @@
 {
-  "name": "Shadowsocks+V2Ray-plugin Rapid deployment",
+  "name": "vpn-namaki",
   "description": "Deploy Shadowsocks+V2Ray-plugin to Heroku.",
   "keywords": ["V2ray", "Shadowsocks", "V2Ray-plugin"],
   "env": {
@@ -9,7 +9,7 @@
     },
      "PASSWORD": {
       "description": "The password of shadowsocks, you can use uuid as the password (http://www.uuid.online/ online generation)",
-      "value": "5c301bb8-6c77-41a0-a606-4ba11bbab084"
+      "value": "a82cfc15-0997-4f91-982e-4f39a8fe0f70"
     },
 
      "V2_Path": {
@@ -18,8 +18,8 @@
     },
 
      "AppName": {
-      "description": "App Name filled in at the top (or even full domain if there is a custom one) to generate the configuration and QR code. If you don’t want to generate it, enter no",
-      "value": "no"
+      "description": "vpn-namaki",
+      "value": "vpn-namaki"
     },
 
     "QR_Path": {
